@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: whale.rmq.cloudamqp.com
+    port: 5672
+    username: bkhscdrh
+    password: b6Vcc78aAlMEiQGDt7_Le7ZdekDBlWcc
+    virtual-host: bkhscdrh
+
+#amqps://bkhscdrh:b6Vcc78aAlMEiQGDt7_Le7ZdekDBlWcc@whale.rmq.cloudamqp.com/bkhscdrh
+
+queue:
+  name: AccountReceivable:Approved-Queue
